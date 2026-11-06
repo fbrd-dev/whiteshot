@@ -1,0 +1,7 @@
+// Copy this file to Local.xcconfig (git-ignored) and put in your own Team ID.
+// Find it in Xcode > Settings > Accounts, or in your developer.apple.com membership page.
+//
+// A stable signing identity keeps macOS' Screen Recording permission across rebuilds.
+CODE_SIGN_STYLE = Automatic
+CODE_SIGN_IDENTITY = Apple Development
+DEVELOPMENT_TEAM = YOURTEAMID

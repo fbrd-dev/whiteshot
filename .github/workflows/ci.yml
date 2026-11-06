@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build-and-test:
+    # The Liquid Glass styling is compiled against the macOS 26 SDK, so the runner needs Xcode 26+.
+    runs-on: macos-26
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: Generate the Xcode project
+        run: xcodegen generate
+
+      - name: Build
+        run: |
+          xcodebuild -project WhiteShot.xcodeproj -scheme WhiteShot -configuration Debug \
+            -destination "platform=macOS" CODE_SIGNING_ALLOWED=NO build
+
+      - name: Test
+        # Hosted tests need a code-signed host on recent macOS, so sign ad hoc.
+        run: |
+          xcodebuild -project WhiteShot.xcodeproj -scheme WhiteShot -configuration Debug \
+            -destination "platform=macOS" CODE_SIGN_IDENTITY=- CODE_SIGNING_REQUIRED=NO test
+
+      - name: Check German translations are complete
+        run: python3 scripts/l10n_de.py

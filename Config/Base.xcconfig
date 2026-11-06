@@ -1,0 +1,11 @@
+// Defaults that work for anyone who clones the repo: ad-hoc signing, no team needed.
+//
+// macOS keys the Screen Recording permission to an app's code signature. An ad-hoc
+// signature changes on every build, so macOS asks for the permission again after each
+// rebuild. To avoid that while developing, create Config/Local.xcconfig (git-ignored)
+// from Local.xcconfig.example and sign with your own Apple Development identity.
+CODE_SIGN_STYLE = Manual
+CODE_SIGN_IDENTITY = -
+DEVELOPMENT_TEAM =
+
+#include? "Local.xcconfig"

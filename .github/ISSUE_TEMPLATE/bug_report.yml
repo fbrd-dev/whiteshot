@@ -1,0 +1,33 @@
+name: Bug report
+description: Something does not work as expected
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Press the region shortcut
+        2. …
+  - type: input
+    id: version
+    attributes:
+      label: WhiteShot version
+      description: Shown in Settings › About.
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version and Mac model
+      placeholder: macOS 26.1, MacBook Pro M4, two displays
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Please do not attach screenshots that contain private information.

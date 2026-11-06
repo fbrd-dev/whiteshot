@@ -1,0 +1,3514 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "": {
+      "shouldTranslate": false
+    },
+    "#": {
+      "shouldTranslate": false
+    },
+    "#%@": {
+      "shouldTranslate": false
+    },
+    "${%@}": {
+      "shouldTranslate": false
+    },
+    "%@ %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@ %2$lld"
+          }
+        }
+      },
+      "shouldTranslate": false
+    },
+    "%@ (%@)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@ (%2$@)"
+          }
+        }
+      },
+      "shouldTranslate": false
+    },
+    "%@ is already used for “%@”. Choose another combination.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ wird bereits für „%@“ verwendet. Wähle eine andere Kombination."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@ is already used for “%2$@”. Choose another combination."
+          }
+        }
+      }
+    },
+    "%lld": {
+      "shouldTranslate": false
+    },
+    "%lld s": {
+      "shouldTranslate": false
+    },
+    "%lld screenshots have unsaved changes": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld Screenshots haben ungesicherte Änderungen"
+          }
+        }
+      }
+    },
+    "%lld%%": {
+      "shouldTranslate": false
+    },
+    "A “/” in the pattern creates sub-folders.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ein „/“ im Muster erzeugt Unterordner."
+          }
+        }
+      }
+    },
+    "About": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Info"
+          }
+        }
+      }
+    },
+    "About WhiteShot": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Über WhiteShot"
+          }
+        }
+      }
+    },
+    "Actual Size": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Originalgröße"
+          }
+        }
+      }
+    },
+    "Add": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hinzufügen"
+          }
+        }
+      }
+    },
+    "Adds space around the image. Use negative values to cut edges away.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fügt Platz um das Bild herum hinzu. Mit negativen Werten werden Ränder abgeschnitten."
+          }
+        }
+      }
+    },
+    "Add…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hinzufügen…"
+          }
+        }
+      }
+    },
+    "Adjust Colors": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Farben anpassen"
+          }
+        }
+      }
+    },
+    "Adjust Colors…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Farben anpassen…"
+          }
+        }
+      }
+    },
+    "After Capture": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nach der Aufnahme"
+          }
+        }
+      }
+    },
+    "After a capture": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nach einer Aufnahme"
+          }
+        }
+      }
+    },
+    "After you have used Recognize Text in the editor, PNG, JPEG, TIFF and HEIC files keep the text in their description. Text under censored areas is never included.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wenn du im Editor „Text erkennen“ verwendet hast, speichern PNG-, JPEG-, TIFF- und HEIC-Dateien den Text in ihrer Beschreibung. Text unter zensierten Bereichen wird nie gespeichert."
+          }
+        }
+      }
+    },
+    "Alignment": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ausrichtung"
+          }
+        }
+      }
+    },
+    "Another app already uses %@. Pick a different combination.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eine andere App verwendet bereits %@. Wähle eine andere Kombination."
+          }
+        }
+      }
+    },
+    "Apply": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anwenden"
+          }
+        }
+      }
+    },
+    "Arrange": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anordnen"
+          }
+        }
+      }
+    },
+    "Arrow": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pfeil"
+          }
+        }
+      }
+    },
+    "Arrowheads": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pfeilspitzen"
+          }
+        }
+      }
+    },
+    "Ask Each Time": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jedes Mal fragen"
+          }
+        }
+      }
+    },
+    "Ask for a file name (Save As)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nach Dateinamen fragen (Sichern unter)"
+          }
+        }
+      }
+    },
+    "Ask where to send each screenshot": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bei jedem Screenshot fragen, wohin er soll"
+          }
+        }
+      }
+    },
+    "Auto-Crop": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatisch zuschneiden"
+          }
+        }
+      }
+    },
+    "Background": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hintergrund"
+          }
+        }
+      }
+    },
+    "Barcode": {
+      "shouldTranslate": false
+    },
+    "Black": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schwarz"
+          }
+        }
+      }
+    },
+    "Black Out": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schwärzen"
+          }
+        }
+      }
+    },
+    "Block size": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blockgröße"
+          }
+        }
+      }
+    },
+    "Blur": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weichzeichnen"
+          }
+        }
+      }
+    },
+    "Bold": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fett"
+          }
+        }
+      }
+    },
+    "Border": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rahmen"
+          }
+        }
+      }
+    },
+    "Border Color": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rahmenfarbe"
+          }
+        }
+      }
+    },
+    "Border…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rahmen…"
+          }
+        }
+      }
+    },
+    "Both ↔": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beide ↔"
+          }
+        }
+      }
+    },
+    "Bottom": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unten"
+          }
+        }
+      }
+    },
+    "Brightness": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Helligkeit"
+          }
+        }
+      }
+    },
+    "Bring All to Front": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle nach vorne bringen"
+          }
+        }
+      }
+    },
+    "Bring Forward": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eine Ebene nach vorne"
+          }
+        }
+      }
+    },
+    "Bring to Front": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In den Vordergrund"
+          }
+        }
+      }
+    },
+    "By default WhiteShot uses your Mac’s language. Changing it takes effect after a restart.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Standardmäßig verwendet WhiteShot die Sprache deines Macs. Eine Änderung wird nach einem Neustart wirksam."
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abbrechen"
+          }
+        }
+      }
+    },
+    "Canvas Size": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arbeitsfläche"
+          }
+        }
+      }
+    },
+    "Canvas Size…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arbeitsfläche…"
+          }
+        }
+      }
+    },
+    "Capture": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aufnahme"
+          }
+        }
+      }
+    },
+    "Capture All Displays": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle Bildschirme aufnehmen"
+          }
+        }
+      }
+    },
+    "Capture Full Screen": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gesamten Bildschirm aufnehmen"
+          }
+        }
+      }
+    },
+    "Capture Last Region": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Letzten Bereich erneut aufnehmen"
+          }
+        }
+      }
+    },
+    "Capture Region": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bereich aufnehmen"
+          }
+        }
+      }
+    },
+    "Capture Window": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fenster aufnehmen"
+          }
+        }
+      }
+    },
+    "Card numbers": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kartennummern"
+          }
+        }
+      }
+    },
+    "Cards": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Karten"
+          }
+        }
+      }
+    },
+    "Censor": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unkenntlich machen"
+          }
+        }
+      }
+    },
+    "Censor %lld": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld zensieren"
+          }
+        }
+      }
+    },
+    "Censor All %lld Occurrences": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle %lld Vorkommen zensieren"
+          }
+        }
+      }
+    },
+    "Censor All Occurrences": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle Vorkommen zensieren"
+          }
+        }
+      }
+    },
+    "Censor Selection": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auswahl zensieren"
+          }
+        }
+      }
+    },
+    "Censor Text": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text zensieren"
+          }
+        }
+      }
+    },
+    "Change Style": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stil ändern"
+          }
+        }
+      }
+    },
+    "Check Now": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jetzt prüfen"
+          }
+        }
+      }
+    },
+    "Check for Updates…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nach Updates suchen…"
+          }
+        }
+      }
+    },
+    "Check for new versions automatically": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatisch nach neuen Versionen suchen"
+          }
+        }
+      }
+    },
+    "Choose": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auswählen"
+          }
+        }
+      }
+    },
+    "Choose by Clicking": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Per Klick auswählen"
+          }
+        }
+      }
+    },
+    "Choose…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auswählen…"
+          }
+        }
+      }
+    },
+    "Circle Color": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kreisfarbe"
+          }
+        }
+      }
+    },
+    "Click a code to copy or open its contents.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klicke auf einen Code, um seinen Inhalt zu kopieren oder zu öffnen."
+          }
+        }
+      }
+    },
+    "Click a field, then press the combination you want. Both shortcuts of an action work at the same time.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klicke auf ein Feld und drücke dann die gewünschte Tastenkombination. Beide Tastenkürzel einer Aktion funktionieren gleichzeitig."
+          }
+        }
+      }
+    },
+    "Clipboard": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zwischenablage"
+          }
+        }
+      }
+    },
+    "Close": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schließen"
+          }
+        }
+      }
+    },
+    "Close All Pins": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle angehefteten Bilder schließen"
+          }
+        }
+      }
+    },
+    "Color": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Farbe"
+          }
+        }
+      }
+    },
+    "Color Wheel": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Farbkreis"
+          }
+        }
+      }
+    },
+    "Continue": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fortfahren"
+          }
+        }
+      }
+    },
+    "Contrast": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kontrast"
+          }
+        }
+      }
+    },
+    "Copied": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopiert"
+          }
+        }
+      }
+    },
+    "Copied %lld characters": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld Zeichen kopiert"
+          }
+        }
+      }
+    },
+    "Copied %lld codes": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld Codes kopiert"
+          }
+        }
+      }
+    },
+    "Copied QR code content": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "QR-Code-Inhalt kopiert"
+          }
+        }
+      }
+    },
+    "Copied text and QR code": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text und QR-Code kopiert"
+          }
+        }
+      }
+    },
+    "Copy": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopieren"
+          }
+        }
+      }
+    },
+    "Copy All": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alles kopieren"
+          }
+        }
+      }
+    },
+    "Copy File Path": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dateipfad kopieren"
+          }
+        }
+      }
+    },
+    "Copy Hex (#%@)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hex kopieren (#%@)"
+          }
+        }
+      }
+    },
+    "Copy Image": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bild kopieren"
+          }
+        }
+      }
+    },
+    "Copy Image to Clipboard": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bild in die Zwischenablage kopieren"
+          }
+        }
+      }
+    },
+    "Copy Image to Clipboard (⇧⌘C)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bild in die Zwischenablage kopieren (⇧⌘C)"
+          }
+        }
+      }
+    },
+    "Copy RGB (%@)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RGB kopieren (%@)"
+          }
+        }
+      }
+    },
+    "Copy the color code": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Farbcode kopieren"
+          }
+        }
+      }
+    },
+    "Copy the file path to the clipboard after saving": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nach dem Sichern den Dateipfad in die Zwischenablage kopieren"
+          }
+        }
+      }
+    },
+    "Copy to Clipboard": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In die Zwischenablage kopieren"
+          }
+        }
+      }
+    },
+    "Copy to the clipboard": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In die Zwischenablage kopieren"
+          }
+        }
+      }
+    },
+    "Could not save to %@: %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sichern nach %@ nicht möglich: %@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Could not save to %1$@: %2$@"
+          }
+        }
+      }
+    },
+    "Cover everything that is marked in orange": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alles abdecken, was orange markiert ist"
+          }
+        }
+      }
+    },
+    "Cover the selected text with a censor box": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Den ausgewählten Text mit einer Zensurfläche abdecken"
+          }
+        }
+      }
+    },
+    "Crop": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zuschneiden"
+          }
+        }
+      }
+    },
+    "Cut": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ausschneiden"
+          }
+        }
+      }
+    },
+    "Day, two digits": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tag, zweistellig"
+          }
+        }
+      }
+    },
+    "Delay before capturing": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verzögerung vor der Aufnahme"
+          }
+        }
+      }
+    },
+    "Delete": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Löschen"
+          }
+        }
+      }
+    },
+    "Dimming": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abdunkeln"
+          }
+        }
+      }
+    },
+    "Do you want to save the changes to “%@”?": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Möchtest du die Änderungen an „%@“ sichern?"
+          }
+        }
+      }
+    },
+    "Done": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fertig"
+          }
+        }
+      }
+    },
+    "Don’t Save": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nicht sichern"
+          }
+        }
+      }
+    },
+    "Download": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herunterladen"
+          }
+        }
+      }
+    },
+    "Drag image": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bild ziehen"
+          }
+        }
+      }
+    },
+    "Drag on the image to choose the area to keep": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ziehe auf dem Bild den Bereich auf, der erhalten bleiben soll"
+          }
+        }
+      }
+    },
+    "Drag over the text to select it, then copy or censor it.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ziehe über den Text, um ihn auszuwählen, und kopiere oder zensiere ihn."
+          }
+        }
+      }
+    },
+    "Drag the picture into another app, such as Mail, Slack or the Finder": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ziehe das Bild in eine andere App, zum Beispiel Mail, Slack oder den Finder"
+          }
+        }
+      }
+    },
+    "Drop Shadow": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schlagschatten"
+          }
+        }
+      }
+    },
+    "Drop Shadow…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schlagschatten…"
+          }
+        }
+      }
+    },
+    "Duplicate": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duplizieren"
+          }
+        }
+      }
+    },
+    "Each set remembers the shortcuts you record in it.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jeder Satz merkt sich die Tastenkürzel, die du darin aufnimmst."
+          }
+        }
+      }
+    },
+    "Edit": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bearbeiten"
+          }
+        }
+      }
+    },
+    "Edit Text": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text bearbeiten"
+          }
+        }
+      }
+    },
+    "Ellipse": {
+      "shouldTranslate": false
+    },
+    "Email": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "E-Mail"
+          }
+        }
+      }
+    },
+    "Email addresses": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "E-Mail-Adressen"
+          }
+        }
+      }
+    },
+    "Emails": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "E-Mails"
+          }
+        }
+      }
+    },
+    "Email…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "E-Mail…"
+          }
+        }
+      }
+    },
+    "End →": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ende →"
+          }
+        }
+      }
+    },
+    "Enter Full Screen": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vollbildmodus aktivieren"
+          }
+        }
+      }
+    },
+    "Example": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beispiel"
+          }
+        }
+      }
+    },
+    "Feedback": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rückmeldung"
+          }
+        }
+      }
+    },
+    "File": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ablage"
+          }
+        }
+      }
+    },
+    "File name": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dateiname"
+          }
+        }
+      }
+    },
+    "Fill": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Füllung"
+          }
+        }
+      }
+    },
+    "Fill Color": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Füllfarbe"
+          }
+        }
+      }
+    },
+    "Fit to Window": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An Fenster anpassen"
+          }
+        }
+      }
+    },
+    "Flip": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spiegeln"
+          }
+        }
+      }
+    },
+    "Flip Horizontal": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Horizontal spiegeln"
+          }
+        }
+      }
+    },
+    "Flip Vertical": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vertikal spiegeln"
+          }
+        }
+      }
+    },
+    "Font": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schrift"
+          }
+        }
+      }
+    },
+    "Format": {
+      "shouldTranslate": false
+    },
+    "Free software under the GNU General Public License, version 3.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Freie Software unter der GNU General Public License, Version 3."
+          }
+        }
+      }
+    },
+    "Freehand": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Freihand"
+          }
+        }
+      }
+    },
+    "Gamma": {
+      "shouldTranslate": false
+    },
+    "General": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Allgemein"
+          }
+        }
+      }
+    },
+    "GitHub": {
+      "shouldTranslate": false
+    },
+    "Global shortcuts": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Globale Tastenkürzel"
+          }
+        }
+      }
+    },
+    "Grab Text": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text erfassen"
+          }
+        }
+      }
+    },
+    "Grayscale": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Graustufen"
+          }
+        }
+      }
+    },
+    "Height": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Höhe"
+          }
+        }
+      }
+    },
+    "Help": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hilfe"
+          }
+        }
+      }
+    },
+    "Hex": {
+      "shouldTranslate": false
+    },
+    "Hide Others": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Andere ausblenden"
+          }
+        }
+      }
+    },
+    "Hide WhiteShot": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WhiteShot ausblenden"
+          }
+        }
+      }
+    },
+    "Highlight": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hervorheben"
+          }
+        }
+      }
+    },
+    "Horizontal offset": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Horizontaler Versatz"
+          }
+        }
+      }
+    },
+    "Hour (24h), two digits": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stunde (24 h), zweistellig"
+          }
+        }
+      }
+    },
+    "How censored text looks": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "So sieht zensierter Text aus"
+          }
+        }
+      }
+    },
+    "IBANs": {
+      "shouldTranslate": false
+    },
+    "IP addresses": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "IP-Adressen"
+          }
+        }
+      }
+    },
+    "IPs": {
+      "shouldTranslate": false
+    },
+    "If you quit now, those changes are lost.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wenn du jetzt beendest, gehen diese Änderungen verloren."
+          }
+        }
+      }
+    },
+    "Image": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bild"
+          }
+        }
+      }
+    },
+    "Image format": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bildformat"
+          }
+        }
+      }
+    },
+    "Include the mouse pointer": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mauszeiger mit aufnehmen"
+          }
+        }
+      }
+    },
+    "Include the window’s shadow": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schatten des Fensters einbeziehen"
+          }
+        }
+      }
+    },
+    "Insert Image from File…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bild aus Datei einfügen…"
+          }
+        }
+      }
+    },
+    "Invert Colors": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Farben umkehren"
+          }
+        }
+      }
+    },
+    "Italic": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kursiv"
+          }
+        }
+      }
+    },
+    "Keep proportions": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seitenverhältnis beibehalten"
+          }
+        }
+      }
+    },
+    "Language": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sprache"
+          }
+        }
+      }
+    },
+    "Later": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Später"
+          }
+        }
+      }
+    },
+    "Launch WhiteShot at login": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WhiteShot bei der Anmeldung starten"
+          }
+        }
+      }
+    },
+    "Left": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Links"
+          }
+        }
+      }
+    },
+    "Like macOS screenshots (⌘⇧)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wie bei macOS-Bildschirmfotos (⌘⇧)"
+          }
+        }
+      }
+    },
+    "Line": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Linie"
+          }
+        }
+      }
+    },
+    "Line Color": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Linienfarbe"
+          }
+        }
+      }
+    },
+    "Line Width": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Linienstärke"
+          }
+        }
+      }
+    },
+    "Magnify": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lupe"
+          }
+        }
+      }
+    },
+    "Marker": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Textmarker"
+          }
+        }
+      }
+    },
+    "Marker Color": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Markerfarbe"
+          }
+        }
+      }
+    },
+    "Millisecond, three digits": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Millisekunde, dreistellig"
+          }
+        }
+      }
+    },
+    "Minimize": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Im Dock ablegen"
+          }
+        }
+      }
+    },
+    "Minute, two digits": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Minute, zweistellig"
+          }
+        }
+      }
+    },
+    "Mode": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modus"
+          }
+        }
+      }
+    },
+    "Month, two digits": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Monat, zweistellig"
+          }
+        }
+      }
+    },
+    "Move": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bewegen"
+          }
+        }
+      }
+    },
+    "Name of this Mac": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name dieses Macs"
+          }
+        }
+      }
+    },
+    "New Random Edge": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neue zufällige Kante"
+          }
+        }
+      }
+    },
+    "No Color": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine Farbe"
+          }
+        }
+      }
+    },
+    "No Windows": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine Fenster"
+          }
+        }
+      }
+    },
+    "No display could be captured.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Es konnte kein Bildschirm aufgenommen werden."
+          }
+        }
+      }
+    },
+    "No email app is set up on this Mac.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auf diesem Mac ist keine E-Mail-App eingerichtet."
+          }
+        }
+      }
+    },
+    "No text found": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kein Text gefunden"
+          }
+        }
+      }
+    },
+    "No text found in this image.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In diesem Bild wurde kein Text gefunden."
+          }
+        }
+      }
+    },
+    "None": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine"
+          }
+        }
+      }
+    },
+    "None —": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine —"
+          }
+        }
+      }
+    },
+    "Number Color": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zahlenfarbe"
+          }
+        }
+      }
+    },
+    "One screenshot has unsaved changes": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ein Screenshot hat ungesicherte Änderungen"
+          }
+        }
+      }
+    },
+    "Opacity": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deckkraft"
+          }
+        }
+      }
+    },
+    "Open": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öffnen"
+          }
+        }
+      }
+    },
+    "Open Image…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bild öffnen…"
+          }
+        }
+      }
+    },
+    "Open Keyboard Shortcuts…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tastaturkurzbefehle öffnen…"
+          }
+        }
+      }
+    },
+    "Open System Settings": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Systemeinstellungen öffnen"
+          }
+        }
+      }
+    },
+    "Open System Settings › Privacy & Security › Screen & System Audio Recording, switch WhiteShot on, then quit and reopen WhiteShot. macOS only applies this permission to apps that start afterwards.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öffne Systemeinstellungen › Datenschutz & Sicherheit › Bildschirm- & Systemaudioaufnahme, schalte WhiteShot ein und beende WhiteShot danach und öffne es erneut. macOS wendet diese Berechtigung nur auf Apps an, die danach gestartet werden."
+          }
+        }
+      }
+    },
+    "Open from Clipboard": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aus der Zwischenablage öffnen"
+          }
+        }
+      }
+    },
+    "Open in Editor": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Im Editor öffnen"
+          }
+        }
+      }
+    },
+    "Open in the editor": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Im Editor öffnen"
+          }
+        }
+      }
+    },
+    "Outline Color": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konturfarbe"
+          }
+        }
+      }
+    },
+    "Output": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ausgabe"
+          }
+        }
+      }
+    },
+    "Paste": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einsetzen"
+          }
+        }
+      }
+    },
+    "Phone numbers": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Telefonnummern"
+          }
+        }
+      }
+    },
+    "Phones": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Telefon"
+          }
+        }
+      }
+    },
+    "Pick any combination. With nothing selected the screenshot opens in the editor.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wähle beliebige Kombinationen. Ist nichts gewählt, öffnet sich der Screenshot im Editor."
+          }
+        }
+      }
+    },
+    "Pick from Screen": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vom Bildschirm aufnehmen"
+          }
+        }
+      }
+    },
+    "Pin": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anheften"
+          }
+        }
+      }
+    },
+    "Pin the picture on top of other windows (⇧⌘P)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Das Bild über anderen Fenstern anheften (⇧⌘P)"
+          }
+        }
+      }
+    },
+    "Pin to Screen": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An den Bildschirm heften"
+          }
+        }
+      }
+    },
+    "Pin to the screen": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An den Bildschirm heften"
+          }
+        }
+      }
+    },
+    "Pixelate": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verpixeln"
+          }
+        }
+      }
+    },
+    "Play a sound after capturing": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nach der Aufnahme einen Ton abspielen"
+          }
+        }
+      }
+    },
+    "Print": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Drucken"
+          }
+        }
+      }
+    },
+    "Print…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Drucken…"
+          }
+        }
+      }
+    },
+    "QR code": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "QR-Code"
+          }
+        }
+      }
+    },
+    "QR codes and barcodes": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "QR-Codes und Barcodes"
+          }
+        }
+      }
+    },
+    "Quality": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Qualität"
+          }
+        }
+      }
+    },
+    "Quit Anyway": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trotzdem beenden"
+          }
+        }
+      }
+    },
+    "Quit WhiteShot": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WhiteShot beenden"
+          }
+        }
+      }
+    },
+    "RGB": {
+      "shouldTranslate": false
+    },
+    "RRGGBB": {
+      "shouldTranslate": false
+    },
+    "Radius": {
+      "shouldTranslate": false
+    },
+    "Recognize Text": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text erkennen"
+          }
+        }
+      }
+    },
+    "Recognize Text (⇧⌘T)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text erkennen (⇧⌘T)"
+          }
+        }
+      }
+    },
+    "Recognizing text…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text wird erkannt…"
+          }
+        }
+      }
+    },
+    "Rectangle": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rechteck"
+          }
+        }
+      }
+    },
+    "Redo": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wiederholen"
+          }
+        }
+      }
+    },
+    "Redo (⇧⌘Z)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wiederholen (⇧⌘Z)"
+          }
+        }
+      }
+    },
+    "Remove this shortcut": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dieses Tastenkürzel entfernen"
+          }
+        }
+      }
+    },
+    "Report an Issue": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Problem melden"
+          }
+        }
+      }
+    },
+    "Reset": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zurücksetzen"
+          }
+        }
+      }
+    },
+    "Reset All Settings…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle Einstellungen zurücksetzen…"
+          }
+        }
+      }
+    },
+    "Reset all settings to their defaults?": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle Einstellungen auf die Standardwerte zurücksetzen?"
+          }
+        }
+      }
+    },
+    "Resize": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Größe ändern"
+          }
+        }
+      }
+    },
+    "Resize Image": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bildgröße ändern"
+          }
+        }
+      }
+    },
+    "Resize…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Größe ändern…"
+          }
+        }
+      }
+    },
+    "Restart Now": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jetzt neu starten"
+          }
+        }
+      }
+    },
+    "Restart to change the language?": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neu starten, um die Sprache zu ändern?"
+          }
+        }
+      }
+    },
+    "Restore the default": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Standard wiederherstellen"
+          }
+        }
+      }
+    },
+    "Restores every setting, your shortcuts and the colours and sizes the editor remembers to their defaults.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Setzt jede Einstellung, deine Tastenkürzel und die vom Editor gemerkten Farben und Größen auf die Standardwerte zurück."
+          }
+        }
+      }
+    },
+    "Right": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rechts"
+          }
+        }
+      }
+    },
+    "Rotate": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Drehen"
+          }
+        }
+      }
+    },
+    "Rotate Left": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nach links drehen"
+          }
+        }
+      }
+    },
+    "Rotate Right": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nach rechts drehen"
+          }
+        }
+      }
+    },
+    "Running number, six digits": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Laufende Nummer, sechsstellig"
+          }
+        }
+      }
+    },
+    "Save": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sichern"
+          }
+        }
+      }
+    },
+    "Save (⌘S)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sichern (⌘S)"
+          }
+        }
+      }
+    },
+    "Save As…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sichern unter…"
+          }
+        }
+      }
+    },
+    "Save location": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Speicherort"
+          }
+        }
+      }
+    },
+    "Save recognized text with the image": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erkannten Text mit dem Bild speichern"
+          }
+        }
+      }
+    },
+    "Save to File": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In Datei sichern"
+          }
+        }
+      }
+    },
+    "Save to the output folder": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Im Ausgabeordner sichern"
+          }
+        }
+      }
+    },
+    "Saved": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gesichert"
+          }
+        }
+      }
+    },
+    "Scale": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skalierung"
+          }
+        }
+      }
+    },
+    "Screenshot": {
+      "shouldTranslate": false
+    },
+    "Screenshot copied": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Screenshot kopiert"
+          }
+        }
+      }
+    },
+    "Screenshot saved": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Screenshot gesichert"
+          }
+        }
+      }
+    },
+    "Screenshots and annotations for macOS, inspired by Greenshot.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Screenshots und Anmerkungen für macOS, inspiriert von Greenshot."
+          }
+        }
+      }
+    },
+    "Second shortcut": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zweites Tastenkürzel"
+          }
+        }
+      }
+    },
+    "Second, two digits": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sekunde, zweistellig"
+          }
+        }
+      }
+    },
+    "Select": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auswählen"
+          }
+        }
+      }
+    },
+    "Select All": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alles auswählen"
+          }
+        }
+      }
+    },
+    "Select text to copy or censor it. Click a code for its contents.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wähle Text zum Kopieren oder Zensieren aus. Klicke auf einen Code für seinen Inhalt."
+          }
+        }
+      }
+    },
+    "Send Backward": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eine Ebene nach hinten"
+          }
+        }
+      }
+    },
+    "Send to Back": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In den Hintergrund"
+          }
+        }
+      }
+    },
+    "Services": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dienste"
+          }
+        }
+      }
+    },
+    "Settings…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einstellungen…"
+          }
+        }
+      }
+    },
+    "Shadow": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schatten"
+          }
+        }
+      }
+    },
+    "Shadow Color": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schattenfarbe"
+          }
+        }
+      }
+    },
+    "Share": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teilen"
+          }
+        }
+      }
+    },
+    "Share…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teilen…"
+          }
+        }
+      }
+    },
+    "Shortcut": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tastenkürzel"
+          }
+        }
+      }
+    },
+    "Shortcut set": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tastenkürzel-Satz"
+          }
+        }
+      }
+    },
+    "Shortcuts": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tastenkürzel"
+          }
+        }
+      }
+    },
+    "Show All": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle einblenden"
+          }
+        }
+      }
+    },
+    "Show a magnifier while selecting a region": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beim Auswählen eines Bereichs eine Lupe anzeigen"
+          }
+        }
+      }
+    },
+    "Show a notification after saving or copying": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nach dem Sichern oder Kopieren eine Mitteilung anzeigen"
+          }
+        }
+      }
+    },
+    "Show in Finder": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Im Finder anzeigen"
+          }
+        }
+      }
+    },
+    "Size": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Größe"
+          }
+        }
+      }
+    },
+    "Skip This Version": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diese Version überspringen"
+          }
+        }
+      }
+    },
+    "Speech Bubble": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sprechblase"
+          }
+        }
+      }
+    },
+    "Spotlight": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scheinwerfer"
+          }
+        }
+      }
+    },
+    "Start at": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beginnen bei"
+          }
+        }
+      }
+    },
+    "Start ←": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anfang ←"
+          }
+        }
+      }
+    },
+    "Step Number": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schrittnummer"
+          }
+        }
+      }
+    },
+    "Style": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stil"
+          }
+        }
+      }
+    },
+    "Suggest censoring": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zensur vorschlagen"
+          }
+        }
+      }
+    },
+    "Suggested": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vorschläge"
+          }
+        }
+      }
+    },
+    "System": {
+      "shouldTranslate": false
+    },
+    "System Language": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Systemsprache"
+          }
+        }
+      }
+    },
+    "System Language (%@)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Systemsprache (%@)"
+          }
+        }
+      }
+    },
+    "Text": {
+      "shouldTranslate": false
+    },
+    "Text Color": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Textfarbe"
+          }
+        }
+      }
+    },
+    "Text recognition failed": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Texterkennung fehlgeschlagen"
+          }
+        }
+      }
+    },
+    "Text recognition failed: %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Texterkennung fehlgeschlagen: %@"
+          }
+        }
+      }
+    },
+    "That window is no longer available.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dieses Fenster ist nicht mehr verfügbar."
+          }
+        }
+      }
+    },
+    "The Grab Text shortcut lets you select a region of the screen and copies what is in it to the clipboard. Choose what it picks up.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mit dem Kurzbefehl „Text erfassen“ wählst du einen Bildschirmbereich aus und kopierst dessen Inhalt in die Zwischenablage. Lege fest, was dabei erkannt wird."
+          }
+        }
+      }
+    },
+    "The image could not be encoded.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Das Bild konnte nicht kodiert werden."
+          }
+        }
+      }
+    },
+    "The image is on the clipboard.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Das Bild befindet sich in der Zwischenablage."
+          }
+        }
+      }
+    },
+    "There is no image on the clipboard.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In der Zwischenablage befindet sich kein Bild."
+          }
+        }
+      }
+    },
+    "There is no previous region yet. Capture a region first.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Es gibt noch keinen vorherigen Bereich. Nimm zuerst einen Bereich auf."
+          }
+        }
+      }
+    },
+    "These don’t collide with macOS’ built-in screenshot shortcuts, so both can be used side by side.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diese kollidieren nicht mit den Screenshot-Kurzbefehlen von macOS, sodass beide nebeneinander genutzt werden können."
+          }
+        }
+      }
+    },
+    "This restores WhiteShot’s settings, shortcuts and remembered editor styles. Your screenshots are not touched.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dadurch werden die Einstellungen, Tastenkürzel und gemerkten Editor-Stile von WhiteShot zurückgesetzt. Deine Screenshots bleiben unverändert."
+          }
+        }
+      }
+    },
+    "To make these work, switch off macOS’ own screenshot shortcuts first. macOS gives its own shortcuts priority.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Damit diese funktionieren, schalte zuerst die Screenshot-Kurzbefehle von macOS aus. macOS gibt seinen eigenen Kurzbefehlen Vorrang."
+          }
+        }
+      }
+    },
+    "Tools": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Werkzeuge"
+          }
+        }
+      }
+    },
+    "Tooth height": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zackenhöhe"
+          }
+        }
+      }
+    },
+    "Tooth width": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zackenbreite"
+          }
+        }
+      }
+    },
+    "Top": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oben"
+          }
+        }
+      }
+    },
+    "Torn Edge": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gerissener Rand"
+          }
+        }
+      }
+    },
+    "Torn Edge…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gerissener Rand…"
+          }
+        }
+      }
+    },
+    "Transparent": {
+      "shouldTranslate": false
+    },
+    "Transparent keeps the rounded corners and the shadow see-through in PNG, TIFF and HEIC files. JPEG and other formats without transparency show white instead.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„Transparent“ lässt die runden Ecken und den Schatten in PNG-, TIFF- und HEIC-Dateien durchsichtig. JPEG und andere Formate ohne Transparenz zeigen stattdessen Weiß."
+          }
+        }
+      }
+    },
+    "Turn on text or QR codes in Settings › Text": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schalte Text oder QR-Codes in den Einstellungen › Text ein"
+          }
+        }
+      }
+    },
+    "Type shortcut…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kürzel eingeben…"
+          }
+        }
+      }
+    },
+    "URLs": {
+      "shouldTranslate": false
+    },
+    "Underline": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unterstrichen"
+          }
+        }
+      }
+    },
+    "Undo": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widerrufen"
+          }
+        }
+      }
+    },
+    "Undo (⌘Z)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widerrufen (⌘Z)"
+          }
+        }
+      }
+    },
+    "Updates": {
+      "shouldTranslate": false
+    },
+    "Variables for the file name": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Variablen für den Dateinamen"
+          }
+        }
+      }
+    },
+    "Version %@": {
+      "shouldTranslate": false
+    },
+    "Vertical offset": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vertikaler Versatz"
+          }
+        }
+      }
+    },
+    "View": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Darstellung"
+          }
+        }
+      }
+    },
+    "Web addresses": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Webadressen"
+          }
+        }
+      }
+    },
+    "Welcome to WhiteShot": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Willkommen bei WhiteShot"
+          }
+        }
+      }
+    },
+    "When you use Recognize Text in the editor, text of these kinds is marked in orange and can be censored with one click. Nothing is ever censored automatically.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wenn du im Editor „Text erkennen“ verwendest, wird Text dieser Arten orange markiert und lässt sich mit einem Klick zensieren. Es wird nie etwas automatisch zensiert."
+          }
+        }
+      }
+    },
+    "While capturing": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Während der Aufnahme"
+          }
+        }
+      }
+    },
+    "White": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weiß"
+          }
+        }
+      }
+    },
+    "WhiteShot": {
+      "shouldTranslate": false
+    },
+    "WhiteShot %@ is available": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WhiteShot %@ ist verfügbar"
+          }
+        }
+      }
+    },
+    "WhiteShot %@ is the newest version.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WhiteShot %@ ist die neueste Version."
+          }
+        }
+      }
+    },
+    "WhiteShot Project (editable)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WhiteShot-Projekt (bearbeitbar)"
+          }
+        }
+      }
+    },
+    "WhiteShot Settings": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WhiteShot-Einstellungen"
+          }
+        }
+      }
+    },
+    "WhiteShot could not check for updates: %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WhiteShot konnte nicht nach Updates suchen: %@"
+          }
+        }
+      }
+    },
+    "WhiteShot lives in your menu bar. Press %@ to capture a region of the screen.\n\nmacOS will now ask for permission to record your screen. WhiteShot needs it to take screenshots, and nothing ever leaves your Mac.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WhiteShot lebt in deiner Menüleiste. Drücke %@, um einen Bereich des Bildschirms aufzunehmen.\n\nmacOS fragt dich jetzt nach der Erlaubnis, deinen Bildschirm aufzunehmen. WhiteShot braucht sie für Screenshots, und nichts verlässt jemals deinen Mac."
+          }
+        }
+      }
+    },
+    "WhiteShot needs permission to record your screen": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WhiteShot braucht die Erlaubnis, deinen Bildschirm aufzunehmen"
+          }
+        }
+      }
+    },
+    "WhiteShot on GitHub": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WhiteShot auf GitHub"
+          }
+        }
+      }
+    },
+    "WhiteShot only asks GitHub whether a newer release exists and never installs anything by itself.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WhiteShot fragt bei GitHub nur nach, ob es eine neuere Version gibt, und installiert nie etwas von selbst."
+          }
+        }
+      }
+    },
+    "WhiteShot’s menus and windows will switch to %@ after it restarts.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Menüs und Fenster von WhiteShot wechseln nach dem Neustart zu %@."
+          }
+        }
+      }
+    },
+    "WhiteShot’s own (⌃⇧)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eigene von WhiteShot (⌃⇧)"
+          }
+        }
+      }
+    },
+    "Width": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Breite"
+          }
+        }
+      }
+    },
+    "Window": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fenster"
+          }
+        }
+      }
+    },
+    "Window capture": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fensteraufnahme"
+          }
+        }
+      }
+    },
+    "Window title of the captured window": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fenstertitel des aufgenommenen Fensters"
+          }
+        }
+      }
+    },
+    "Year, four digits": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jahr, vierstellig"
+          }
+        }
+      }
+    },
+    "Year, two digits": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jahr, zweistellig"
+          }
+        }
+      }
+    },
+    "You have version %@.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du hast Version %@."
+          }
+        }
+      }
+    },
+    "Your changes will be lost if you don’t save them.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deine Änderungen gehen verloren, wenn du sie nicht sicherst."
+          }
+        }
+      }
+    },
+    "Your user name": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dein Benutzername"
+          }
+        }
+      }
+    },
+    "You’re up to date": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du bist auf dem neuesten Stand"
+          }
+        }
+      }
+    },
+    "Zoom": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zoomen"
+          }
+        }
+      }
+    },
+    "Zoom In": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hineinzoomen"
+          }
+        }
+      }
+    },
+    "Zoom Out": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herauszoomen"
+          }
+        }
+      }
+    },
+    "macOS still uses %@ for its own screenshots, so WhiteShot won’t receive it. Turn those off in System Settings › Keyboard › Keyboard Shortcuts › Screenshots.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS verwendet %@ weiterhin für seine eigenen Screenshots, daher erhält WhiteShot diese Kürzel nicht. Schalte sie in Systemeinstellungen › Tastatur › Tastaturkurzbefehle › Bildschirmfotos aus."
+          }
+        }
+      }
+    },
+    "px": {
+      "shouldTranslate": false
+    },
+    "·": {
+      "shouldTranslate": false
+    },
+    "“%@” could not be opened as an image.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„%@“ konnte nicht als Bild geöffnet werden."
+          }
+        }
+      }
+    },
+    "“%@” is not a valid WhiteShot project.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„%@“ ist kein gültiges WhiteShot-Projekt."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

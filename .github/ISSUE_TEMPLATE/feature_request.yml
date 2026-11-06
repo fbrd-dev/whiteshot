@@ -1,0 +1,16 @@
+name: Feature request
+description: Suggest an improvement
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like WhiteShot to do?
+      description: Describe the problem you are trying to solve first, then the change you have in mind.
+    validations:
+      required: true
+  - type: textarea
+    id: greenshot
+    attributes:
+      label: Does Greenshot do this?
+      description: If you are missing something from Greenshot, say which feature and how it works there.

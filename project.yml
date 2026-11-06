@@ -1,0 +1,114 @@
+name: WhiteShot
+options:
+  bundleIdPrefix: me.fbrd
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+  developmentLanguage: en
+
+configFiles:
+  Debug: Config/Base.xcconfig
+  Release: Config/Base.xcconfig
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+    # Placeholders. The real version is the newest git tag (v1.2.0 -> 1.2.0), stamped in after every build by
+    # scripts/stamp_version.sh, so a release only ever needs a tag.
+    MARKETING_VERSION: "0.0.0"
+    CURRENT_PROJECT_VERSION: "0"
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    SWIFT_EMIT_LOC_STRINGS: YES
+    LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+
+targets:
+  WhiteShot:
+    type: application
+    platform: macOS
+    sources:
+      - path: WhiteShot
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: me.fbrd.whiteshot
+        PRODUCT_NAME: WhiteShot
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_ENTITLEMENTS: WhiteShot/WhiteShot.entitlements
+        ENABLE_HARDENED_RUNTIME: YES
+        # The version script has to read the git history, which the script sandbox does not allow.
+        ENABLE_USER_SCRIPT_SANDBOXING: NO
+        # Not App-Sandboxed on purpose: WhiteShot saves wherever the user points it, and
+        # global hotkeys plus screen capture are simpler and more predictable outside the
+        # sandbox. It is distributed notarized outside the Mac App Store.
+    postBuildScripts:
+      - name: Stamp version from git tag
+        script: '"$SRCROOT/scripts/stamp_version.sh" "$TARGET_BUILD_DIR/$INFOPLIST_PATH"'
+        # Declared as an input so that Xcode makes the Info.plist first and runs this afterwards, never the other way round.
+        inputFiles:
+          - $(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)
+        basedOnDependencyAnalysis: false
+    info:
+      path: Generated/WhiteShot-Info.plist
+      properties:
+        CFBundleDisplayName: WhiteShot
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleDevelopmentRegion: en
+        CFBundleLocalizations: [en, de]
+        LSUIElement: YES
+        LSApplicationCategoryType: public.app-category.graphics-design
+        NSHumanReadableCopyright: "Copyright © 2026 Felix Boenigk. Licensed under GPL-3.0."
+        NSDesktopFolderUsageDescription: "WhiteShot saves screenshots to the folder you choose."
+        NSDocumentsFolderUsageDescription: "WhiteShot saves screenshots to the folder you choose."
+        NSDownloadsFolderUsageDescription: "WhiteShot saves screenshots to the folder you choose."
+        NSScreenCaptureUsageDescription: "WhiteShot needs to record your screen to take screenshots."
+        UTExportedTypeDeclarations:
+          - UTTypeIdentifier: me.fbrd.whiteshot.project
+            UTTypeDescription: WhiteShot Project
+            UTTypeConformsTo: [public.data]
+            UTTypeTagSpecification:
+              public.filename-extension: [whiteshot]
+              public.mime-type: application/x-whiteshot
+        CFBundleDocumentTypes:
+          - CFBundleTypeName: WhiteShot Project
+            CFBundleTypeRole: Editor
+            LSHandlerRank: Owner
+            LSItemContentTypes: [me.fbrd.whiteshot.project]
+          - CFBundleTypeName: Image
+            CFBundleTypeRole: Editor
+            LSHandlerRank: Alternate
+            LSItemContentTypes:
+              - public.png
+              - public.jpeg
+              - public.tiff
+              - com.compuserve.gif
+              - com.microsoft.bmp
+              - public.heic
+
+  WhiteShotTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: WhiteShotTests
+    dependencies:
+      - target: WhiteShot
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: me.fbrd.whiteshot.tests
+        BUNDLE_LOADER: $(TEST_HOST)
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/WhiteShot.app/Contents/MacOS/WhiteShot
+        GENERATE_INFOPLIST_FILE: YES
+
+schemes:
+  WhiteShot:
+    build:
+      targets:
+        WhiteShot: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - WhiteShotTests
+    archive:
+      config: Release
